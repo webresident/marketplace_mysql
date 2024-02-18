@@ -1,0 +1,245 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c8ccd2;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #17141d;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+.nav-link{
+    width: auto;
+    max-height: 100%;
+
+}
+.nav-link a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.nav-text{
+    
+    padding: 10px 20px;
+}
+.header_user-info{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    font-size: 17px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    max-height: 50px;
+}
+
+.column-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+    
+}
+.column-info .nav-link{
+    height: 100%;
+    font-size: 20px;
+}
+.column-info:first-child{
+    margin-right: 10px;
+}
+.column-info:last-child{
+    margin-left: 10px;
+}
+.header-info{
+    color: gray;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+.home-row{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+}
+.row-item{
+    display: flex;
+    flex-direction: column;
+    align-items: middle;
+}
+.item-text{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.item-text h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.item-text p{
+    padding-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.form h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form label{
+    padding-bottom: 3px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.form input{
+    height: 30px;
+    font-size: 16px;
+}
+
+.formButton{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(30, 29, 29);
+    transition: all linear 0.09s;
+    border-radius: 5%;
+}
+.formButton:hover{
+    color: black;
+    background-color: gray;
+}
+.formButton:last-child{
+    margin-top: 60px;
+}
+.formButton a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 100%;
+    transition: all linear 0.09s;
+}
+
+.formButton:hover a{
+    color: black;
+    background-color: gray;
+}
+
+.role-choice{
+    margin-top: 0px;
+    height: 30px;
+    font-size: 16px;
+}
+.loginButton{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    background: none;
+    height: 100%;
+}
+.container-info{
+    margin-top: 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.formRow{
+    display: flex;
+    flex-direction: row;
+}
+.product-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+    border-bottom: 2px solid black;
+}
+.product-item{
+    border: 2px solid black;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.productTable{
+    display: flex;
+    flex-direction: column;
+}
+.user-table th{
+    outline: 1px solid black;
+    padding: 10px 30px 10px 30px;
+}
+.user-table th:first-child{
+    text-align: left;
+    background-color: gray;
+}
+
+
+.tableButton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.user-table input{
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
